@@ -1,0 +1,28 @@
+# Byte-compiled and built packages
+*.py[cod]
+dist/
+
+# Project deps managed by poetry, requirements.txt should be generated manually before
+# docker build
+requirements.txt
+
+# Virtual environment 
+.venv
+
+# Unit test / coverage reports
+.coverage
+
+# Sphinx documentation
+docs/build/
+
+# Configuration
+.env
+.env.*
+!.env.template
+
+# Editors and notes
+.vscode/*
+.idea/*
+.notes
+
+.DS_Store
